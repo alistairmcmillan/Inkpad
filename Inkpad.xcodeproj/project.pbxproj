@@ -353,6 +353,10 @@
 		6BF747931311C399000D9344 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BF747921311C399000D9344 /* Entitlements.plist */; };
 		6BFA802C1249CEDB00D1749C /* WDLayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA802B1249CEDB00D1749C /* WDLayerCell.m */; };
 		6BFBC4EB1335F4A000D5877F /* zoom_to_fit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BFBC4EA1335F4A000D5877F /* zoom_to_fit.png */; };
+		F3B11CA81C9A27BC007B7BCA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B11CA71C9A27BC007B7BCA /* AssetsLibrary.framework */; };
+		F3B11CAA1C9A27C3007B7BCA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B11CA91C9A27C3007B7BCA /* CoreTelephony.framework */; };
+		F3B11CAC1C9A27D7007B7BCA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B11CAB1C9A27D7007B7BCA /* SystemConfiguration.framework */; };
+		F3B11CAE1C9A27E7007B7BCA /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B11CAD1C9A27E7007B7BCA /* BuddyBuildSDK.framework */; };
 		F43A1D76183557770032933E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43A1D6E183557770032933E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -890,6 +894,10 @@
 		C7A41BC2198003D800304C51 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Shadow.strings; sourceTree = "<group>"; };
 		C7A41BC3198003D800304C51 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Stroke.strings; sourceTree = "<group>"; };
 		C7A41BC4198003D800304C51 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3B11CA71C9A27BC007B7BCA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F3B11CA91C9A27C3007B7BCA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F3B11CAB1C9A27D7007B7BCA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F3B11CAD1C9A27E7007B7BCA /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		F43A1D6F183557770032933E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
 		F4F41F7118B2C7E300065865 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = OpenClipArt.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -899,13 +907,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B11CAE1C9A27E7007B7BCA /* BuddyBuildSDK.framework in Frameworks */,
+				F3B11CAC1C9A27D7007B7BCA /* SystemConfiguration.framework in Frameworks */,
+				6BD7072512AD011F004E07C9 /* QuartzCore.framework in Frameworks */,
+				6BD7072112AD011F004E07C9 /* CoreText.framework in Frameworks */,
+				F3B11CAA1C9A27C3007B7BCA /* CoreTelephony.framework in Frameworks */,
+				F3B11CA81C9A27BC007B7BCA /* AssetsLibrary.framework in Frameworks */,
 				29E41AC213F9B229000C3305 /* libz.dylib in Frameworks */,
 				6BD7072012AD011F004E07C9 /* CoreGraphics.framework in Frameworks */,
-				6BD7072112AD011F004E07C9 /* CoreText.framework in Frameworks */,
 				6BD7072212AD011F004E07C9 /* Foundation.framework in Frameworks */,
 				6BD7072312AD011F004E07C9 /* MessageUI.framework in Frameworks */,
 				6BD7072412AD011F004E07C9 /* OpenGLES.framework in Frameworks */,
-				6BD7072512AD011F004E07C9 /* QuartzCore.framework in Frameworks */,
 				6BD7072612AD011F004E07C9 /* Security.framework in Frameworks */,
 				6BD7072712AD011F004E07C9 /* UIKit.framework in Frameworks */,
 				6BDDFA6C13E7924600B10774 /* MobileCoreServices.framework in Frameworks */,
@@ -1000,6 +1012,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3B11CAD1C9A27E7007B7BCA /* BuddyBuildSDK.framework */,
+				F3B11CAB1C9A27D7007B7BCA /* SystemConfiguration.framework */,
+				F3B11CA91C9A27C3007B7BCA /* CoreTelephony.framework */,
+				F3B11CA71C9A27BC007B7BCA /* AssetsLibrary.framework */,
 				29E41AC113F9B229000C3305 /* libz.dylib */,
 				6B7D2C3415085403001311B0 /* Twitter.framework */,
 				2983A283142C1B080097A3A8 /* CoreData.framework */,
@@ -2706,7 +2722,8 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2736,7 +2753,8 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Inkpad_Prefix.pch;
@@ -2786,7 +2804,8 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Inkpad_Prefix.pch;
@@ -2838,7 +2857,8 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Inkpad_Prefix.pch;

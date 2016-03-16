@@ -76,6 +76,8 @@ NSString *WDDropboxWasUnlinkedNotification = @"WDDropboxWasUnlinkedNotification"
 {
     [self applicationDidFinishLaunching:application];
     
+    [BuddyBuildSDK setup];
+    
     if (launchOptions) {
         NSURL *url = launchOptions[UIApplicationLaunchOptionsURLKey];
         

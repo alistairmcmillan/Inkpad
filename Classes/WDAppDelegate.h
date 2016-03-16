@@ -11,6 +11,7 @@
 
 #import <UIKit/UIKit.h>
 #import <DropboxSDK/DropboxSDK.h>
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @interface WDAppDelegate : NSObject <UIApplicationDelegate, DBSessionDelegate, UIAlertViewDelegate>
 
