@@ -82,10 +82,6 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>db-ci54cgs7pddaaoo</string>
-			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
