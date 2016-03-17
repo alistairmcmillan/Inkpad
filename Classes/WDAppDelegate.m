@@ -37,8 +37,8 @@ NSString *WDDropboxWasUnlinkedNotification = @"WDDropboxWasUnlinkedNotification"
     
 //    NSLog(@"No Dropbox Keys!");
     
-    NSString *consumerKey = @"${DropboxConsumerKey}";
-    NSString *consumerSecret = @"${DropboxConsumerSecret}";
+    NSString *consumerKey = @"$DropboxConsumerKey";
+    NSString *consumerSecret = @"$DropboxConsumerSecret";
     
     DBSession *session = [[DBSession alloc] initWithAppKey:consumerKey appSecret:consumerSecret root:kDBRootAppFolder];
     
